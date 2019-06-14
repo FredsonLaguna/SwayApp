@@ -1,0 +1,3 @@
+https://www.codeproject.com/Articles/66244/Marshaling-with-C-Chapter-2-Marshaling-Simple-Type
+https://www.codeproject.com/Articles/18032/How-to-Marshal-a-C-Class
+https://ericeastwood.com/blog/17/unity-and-dlls-c-managed-and-c-unmanaged

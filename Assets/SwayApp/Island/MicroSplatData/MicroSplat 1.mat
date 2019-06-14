@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MicroSplat 1
+  m_Shader: {fileID: 4800000, guid: 75caf7c5bb115b54480b86417b7fb672, type: 3}
+  m_ShaderKeywords: _MAX3LAYER _MICROSPLAT _MSRENDERLOOP_SURFACESHADER _PERTEXBRIGHTNESS
+    _PERTEXCONTRAST _PERTEXHEIGHTOFFSET _PERTEXNORMSTR _PERTEXTINT _PERTEXTRIPLANAR
+    _PERTEXUVSCALEOFFSET _TRIPLANAR _TRIPLANARHEIGHTBLEND _USEGRADMIP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Control0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 18700000, guid: a95352e36baec55429ea9d8b95affd6d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalSAO:
+        m_Texture: {fileID: 18700000, guid: 8374dc20e4d24364c8de2fa8901f6e2c, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerTexProps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Contrast: 0.4
+    - _TriplanarContrast: 4
+    m_Colors:
+    - _TriplanarUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _UVScale: {r: 1.953125, g: 1.953125, b: 0, a: 0}

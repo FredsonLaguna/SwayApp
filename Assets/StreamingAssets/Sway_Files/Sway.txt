@@ -1,0 +1,11 @@
+enter inputs as follows: stage, time period, sway/rotation amount, number of sways, forward or side sway
+time period = the total duration of the current stage.
+sway = how much the environment rotates on each side
+number of sways = The total number of sways that will occur during the time period. This affects sway speed.
+forward or side sway = Enter 0 for side sway, Enter 1 for forward sway
+Must have comma after each input and seperate each stage with a new line
+
+***********ADD INPUTS BELOW*********** 
+1, 6, 10, 2, 0
+2, 8, 12, 3, 1
+

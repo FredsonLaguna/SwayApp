@@ -1,0 +1,88 @@
+  Section contains the following exports for BertecDevice.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+          68 number of functions
+          68 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0001FFC0 ForcePlateCopAngleRad
+          2    1 00020090 ForcePlateCopDistance
+          3    2 0001FE30 ForcePlateGetLastCOPvalues
+          4    3 0001FF50 ForcePlateHasCopValues
+          5    4 0001FC70 ForcePlateShutdown
+          6    5 0001FAE0 ForcePlateStart
+          7    6 0001FDC0 ForcePlateState
+          8    7 00020170 ForcePlateZeroPlate
+          9    8 00002130 bertec_ChangeMaxBufferedDataSize
+         10    9 00002090 bertec_ClearBufferedData
+         11    A 000013B0 bertec_Close
+         12    B 00002390 bertec_DeviceDataRate
+         13    C 00002700 bertec_GetAggregateDeviceMode
+         14    D 00001670 bertec_GetAutozeroState
+         15    E 00001890 bertec_GetAveraging
+         16    F 000032A0 bertec_GetBufferedDataAvailable
+         17   10 00002530 bertec_GetComputedChannelsFlags
+         18   11 00003B90 bertec_GetCurrentDeviceLogFilename
+         19   12 00003800 bertec_GetDeviceChannelName
+         20   13 00003750 bertec_GetDeviceChannels
+         21   14 00001CD0 bertec_GetDeviceCount
+         22   15 00003450 bertec_GetDeviceInfo
+         23   16 00003680 bertec_GetDeviceModelNumber
+         24   17 000035B0 bertec_GetDeviceSerialNumber
+         25   18 000015E0 bertec_GetEnableAutozero
+         26   19 00002810 bertec_GetEnableMasterSlaveMode
+         27   1A 000017B0 bertec_GetLowpassFiltering
+         28   1B 00002240 bertec_GetMaxBufferedDataSize
+         29   1C 00001C40 bertec_GetStatus
+         30   1D 000022D0 bertec_GetZeroLevelNoiseValue
+         31   1E 00001310 bertec_Init
+         32   1F 00001300 bertec_LibraryVersion
+         33   20 00002FA0 bertec_ReadBufferedData
+         34   21 00002F30 bertec_RedetectConnectedDevices
+         35   22 00001D30 bertec_RegisterDataCallback
+         36   23 00003C30 bertec_RegisterDeviceLogCallback
+         37   24 000038E0 bertec_RegisterDeviceSortCallback
+         38   25 00003D40 bertec_RegisterDeviceTimestampCallback
+         39   26 00001FF0 bertec_RegisterProcCreateCallback
+         40   27 00001E90 bertec_RegisterStatusCallback
+         41   28 00002CF0 bertec_ResetAllDeviceClocks
+         42   29 00002E40 bertec_ResetAllDeviceClocksAtTime
+         43   2A 00002C30 bertec_ResetDeviceClock
+         44   2B 00002D50 bertec_ResetDeviceClockAtTime
+         45   2C 00002EC0 bertec_ResetSyncCounters
+         46   2D 00002640 bertec_SetAggregateDeviceMode
+         47   2E 00002A90 bertec_SetAuxPinMode
+         48   2F 00001830 bertec_SetAveraging
+         49   30 000024B0 bertec_SetComputedChannelsFlags
+         50   31 00003A40 bertec_SetDeviceLogDirectory
+         51   32 000014F0 bertec_SetEnableAutozero
+         52   33 000027A0 bertec_SetEnableMasterSlaveMode
+         53   34 00002870 bertec_SetExternalClockMode
+         54   35 00003EC0 bertec_SetInternalOption
+         55   36 00001710 bertec_SetLowpassFiltering
+         56   37 00002590 bertec_SetSubjectHeight
+         57   38 00002B50 bertec_SetSyncAuxPinValues
+         58   39 000029D0 bertec_SetSyncPinMode
+         59   3A 00002440 bertec_SetUsbThreadPriority
+         60   3B 000018F0 bertec_Start
+         61   3C 00001AD0 bertec_Stop
+         62   3D 00001DF0 bertec_UnregisterDataCallback
+         63   3E 00003CC0 bertec_UnregisterDeviceLogCallback
+         64   3F 000039A0 bertec_UnregisterDeviceSortCallback
+         65   40 00003E10 bertec_UnregisterDeviceTimestampCallback
+         66   41 00001F50 bertec_UnregisterStatusCallback
+         67   42 00001410 bertec_ZeroNow
+         68   43 00003330 bertec_undocumented
+
+  Summary
+
+        4000 .data
+        5000 .pdata
+       24000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       59000 .text
